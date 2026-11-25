@@ -1,0 +1,294 @@
+{
+  "slug": "ml-clinica-integrativa",
+  "negocio": {
+    "nome": "ML Clínica Integrativa",
+    "logo": "brand/logo.png",
+    "whatsapp": "5547999060421",
+    "telefone": "(47) 99906-0421",
+    "funcionamento": {
+      "seg": "10:00-20:30",
+      "ter": "10:00-20:30",
+      "qua": "10:00-20:30",
+      "qui": "10:00-20:30",
+      "sex": "10:00-20:30",
+      "sab": "10:30-19:30",
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Ariribá · Balneário Camboriú",
+        "endereco": "Av. do Estado Dalmo Vieira, 1206, sala 43 – Ariribá, Balneário Camboriú – SC, 88338-635",
+        "telefone": "(47) 99906-0421",
+        "horario": "Seg a sex das 10h às 20h30 · sáb das 10h30 às 19h30"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#334C21",
+    "brand2": "#22341A",
+    "ink": "#1F2A18",
+    "bg": "#F7F2E9",
+    "pulse": "#D9C5AA",
+    "radius": "18px",
+    "registro": "editorial",
+    "fontDisplay": "Cormorant Garamond",
+    "fontBody": "Jost",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Clube",
+            "href": "#clube"
+          },
+          {
+            "texto": "Dúvidas",
+            "href": "#faq"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Estética facial, corporal e integrativa · Balneário Camboriú",
+        "h1": "Um cuidado pensado para a sua pele e para o seu corpo",
+        "lead": "Limpeza de pele, microagulhamento, massagem terapêutica, drenagem pós-operatória e massagem para gestantes, no Ariribá. Cada protocolo começa por uma avaliação e é montado para quem está na maca.",
+        "cta": "Agendar avaliação",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "imagem": "midia/maca.jpg",
+        "imagemAlt": "Sala de atendimento da ML Clínica Integrativa, com maca forrada pela toalha bordada com o logo e velas acesas",
+        "tarja": [
+          "5,0 no Google, 100 avaliações",
+          "Pós-operatório acompanhado",
+          "Massagem para gestantes",
+          "Aberto até 20h30 nos dias úteis"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": [
+          "Limpeza de pele",
+          "Microagulhamento",
+          "Glass Skin",
+          "Massagem terapêutica",
+          "Drenagem pós-operatória",
+          "Massagem gestacional",
+          "Criolipólise",
+          "Radiofrequência"
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "Corpo, mente e cuidado",
+        "texto": [
+          "Você é única, e o seu cuidado também deveria ser. A ML trabalha com protocolos bioindividualizados: o mesmo tratamento muda de uma pessoa para outra, porque cada pele e cada corpo chegam com uma história.",
+          "A sessão é também uma pausa. Enquanto a pele é cuidada, a rotina fica do lado de fora da sala, e você sai com a sensação de ter se cuidado de verdade."
+        ],
+        "imagem": "midia/ritual.jpg",
+        "imagemAlt": "Canto de acolhimento com poltrona clara, bacia com flores para os pés e pedras sobre uma caixa de madeira"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Tratamentos",
+        "lead": "Tudo começa por uma avaliação, marcada pelo WhatsApp. Ali se decide o protocolo e o número de sessões.",
+        "itens": [
+          {
+            "nome": "Limpeza de pele",
+            "descricao": "Extração, renovação e hidratação no tempo da sua pele. A base de qualquer protocolo facial da casa.",
+            "icone": "pele"
+          },
+          {
+            "nome": "Microagulhamento e Glass Skin",
+            "descricao": "Estímulo de colágeno para melhorar textura, poros dilatados, cicatrizes e linhas finas. O resultado vem em etapas, sessão após sessão.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Massagem terapêutica e meditativa",
+            "descricao": "Liberação de tensões e relaxamento da musculatura, com pressão e ritmo ajustados ao que o seu corpo pede naquele dia.",
+            "icone": "spa"
+          },
+          {
+            "nome": "Drenagem pós-operatória",
+            "descricao": "Acompanhamento da recuperação depois da cirurgia plástica, com cada etapa do protocolo explicada antes de começar.",
+            "icone": "gota"
+          },
+          {
+            "nome": "Massagem gestacional",
+            "descricao": "Um momento de cuidado para a gestante e de conexão com o bebê, com posições adaptadas a cada fase da gravidez.",
+            "icone": "bebe"
+          },
+          {
+            "nome": "Corporal avançado",
+            "descricao": "Power Shape, criolipólise e radiofrequência para contorno e firmeza, combinados com massagem quando o plano pede.",
+            "icone": "molecula"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/clube.html"
+    },
+    {
+      "id": "conversa",
+      "variant": "celular",
+      "data": {
+        "eyebrow": "Pós-operatório",
+        "titulo": "A dúvida que mais chega depois da cirurgia",
+        "lead": "Quem acabou de operar quer saber quando pode começar a drenagem. A resposta vem pelo WhatsApp, sem precisar ligar.",
+        "cta": "Tirar minha dúvida",
+        "contato": "ML Clínica Integrativa",
+        "mensagens": [
+          {
+            "de": "paciente",
+            "texto": "Oi! Fiz lipo semana passada. Já posso começar a drenagem?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Oi! Que bom que você chamou 🤍 A gente começa assim que o seu cirurgião liberar."
+          },
+          {
+            "de": "clinica",
+            "texto": "Na primeira sessão eu avalio e monto o protocolo de recuperação com você, explicando cada etapa."
+          },
+          {
+            "de": "paciente",
+            "texto": "Perfeito, ele liberou ontem. Tem horário essa semana?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Tem sim! Quinta às 15h ou sexta às 10h, qual fica melhor?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "faixa",
+      "data": {
+        "titulo": "O que as clientes dizem no Google",
+        "itens": [
+          {
+            "valor": "5,0",
+            "rotulo": "nota média no Google"
+          },
+          {
+            "valor": "100",
+            "rotulo": "avaliações",
+            "contar": 100
+          },
+          {
+            "valor": "22",
+            "rotulo": "falam da massagem",
+            "contar": 22
+          },
+          {
+            "valor": "11",
+            "rotulo": "falam da limpeza de pele",
+            "contar": 11
+          }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "Quem já passou pela maca",
+        "itens": [
+          {
+            "texto": "As massagens são revigorantes, energizantes e também totalmente personalizadas, pensadas de acordo com as minhas necessidades.",
+            "autor": "Marina G.",
+            "contexto": "Power Shape, criolipólise e massagem"
+          },
+          {
+            "texto": "Cada pessoa da equipe fez questão de me deixar confortável e bem informada sobre cada passo do protocolo de recuperação.",
+            "autor": "Tayane S.",
+            "contexto": "Pós-operatório"
+          },
+          {
+            "texto": "Cuida muito bem das gravidinhas dela e seus bebês.",
+            "autor": "Fernanda R. W.",
+            "contexto": "Massagem gestacional"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "acordeao",
+      "data": {
+        "titulo": "Dúvidas frequentes",
+        "itens": [
+          {
+            "p": "Quando posso começar a drenagem depois da cirurgia?",
+            "r": "Quando o seu cirurgião liberar. Na primeira sessão a ML avalia e monta o protocolo de recuperação junto com você."
+          },
+          {
+            "p": "Gestante pode fazer massagem?",
+            "r": "Pode, com posições adaptadas a cada fase da gravidez. Conte na avaliação em que semana você está e se há alguma orientação do seu obstetra."
+          },
+          {
+            "p": "Como funciona o Clube do Autocuidado?",
+            "r": "É uma assinatura de cuidado facial contínuo: uma sessão por mês, com protocolo personalizado e ajustado conforme a pele evolui. Os valores são passados na avaliação."
+          },
+          {
+            "p": "Quantas sessões de microagulhamento preciso?",
+            "r": "Depende do objetivo: poros, cicatrizes ou linhas finas pedem planos diferentes. O número de sessões é definido na avaliação."
+          },
+          {
+            "p": "O espaço é acessível?",
+            "r": "Sim. A entrada e os assentos têm acessibilidade para pessoas em cadeira de rodas."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica",
+        "imagem": "midia/fachada.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "vivo",
+      "data": {
+        "h2": "Reserve um tempo para você",
+        "lead": "Conte o que você quer cuidar e a ML responde com o horário da avaliação.",
+        "cta": "Agendar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "assinatura",
+      "data": {}
+    }
+  ]
+}

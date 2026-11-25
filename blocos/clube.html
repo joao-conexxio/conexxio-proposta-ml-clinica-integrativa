@@ -1,0 +1,60 @@
+<section class="blk-clube" id="clube">
+  <div class="wrap">
+    <div class="blk-clube__cab" data-reveal>
+      <p class="blk-clube__eyebrow">Clube do Autocuidado Facial</p>
+      <h2 class="blk-clube__titulo">Pele bem cuidada é questão de constância</h2>
+      <p class="blk-clube__lead" data-acende>Uma limpeza de pele isolada resolve o mês. O Clube transforma o cuidado em rotina: uma sessão reservada para você todo mês, com um protocolo montado para a sua pele e ajustado conforme ela responde.</p>
+    </div>
+    <div class="blk-clube__corpo">
+      <ol class="blk-clube__meses">
+        <li data-reveal style="--d:0ms">
+          <span class="blk-clube__ico"><!--icone:conversa--></span>
+          <span class="blk-clube__quando">Antes de tudo</span>
+          <h3>Avaliação da pele</h3>
+          <p>Textura, poros, oleosidade, manchas e o que mudou nos últimos anos. É daqui que sai o plano.</p>
+        </li>
+        <li data-reveal style="--d:90ms">
+          <span class="blk-clube__ico"><!--icone:agenda--></span>
+          <span class="blk-clube__quando">Todo mês</span>
+          <h3>Sua sessão reservada</h3>
+          <p>Limpeza, microagulhamento ou Glass Skin, conforme a etapa do plano. O horário já é seu.</p>
+        </li>
+        <li data-reveal style="--d:180ms">
+          <span class="blk-clube__ico"><!--icone:pele--></span>
+          <span class="blk-clube__quando">Ao longo do caminho</span>
+          <h3>Evolução acompanhada</h3>
+          <p>A cada sessão a pele é olhada de novo, e o protocolo muda quando ela pede outra coisa.</p>
+        </li>
+      </ol>
+      <figure class="blk-clube__foto" data-reveal style="--d:120ms">
+        <!--foto:midia/flores.jpg|Bacia com flores de girassol e cravos usada no ritual de acolhimento da ML-->
+        <figcaption>Cada protocolo é personalizado para a necessidade real da pele.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-clube{padding-block:var(--sp-section);background:color-mix(in srgb,var(--pulse) 16%,var(--bg))}
+.blk-clube__cab{max-width:46rem;margin-bottom:var(--sp-5)}
+.blk-clube__eyebrow{margin:0 0 var(--sp-2);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-clube__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-clube__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+.blk-clube__corpo{display:grid;gap:var(--sp-5)}
+.blk-clube__meses{list-style:none;margin:0;padding:0 0 0 1.6rem;display:grid;gap:var(--sp-4);position:relative}
+.blk-clube__meses::before{content:"";position:absolute;left:.45rem;top:.4rem;bottom:.4rem;width:2px;background:linear-gradient(var(--brand),color-mix(in srgb,var(--brand) 20%,transparent))}
+.blk-clube__meses li{position:relative;padding:var(--sp-3);border-radius:var(--radius);background:var(--bg);border:1px solid color-mix(in srgb,var(--brand) 14%,transparent)}
+.blk-clube__meses li::before{content:"";position:absolute;left:calc(-1.6rem + .1rem);top:1.5rem;width:.8rem;height:.8rem;border-radius:50%;background:var(--brand);box-shadow:0 0 0 4px color-mix(in srgb,var(--pulse) 16%,var(--bg))}
+.blk-clube__ico{display:inline-flex;width:2.4rem;height:2.4rem;color:var(--brand)}
+.blk-clube__ico svg{width:100%;height:100%}
+.blk-clube__quando{display:block;margin-top:var(--sp-2);font-size:var(--t-label);letter-spacing:.08em;text-transform:uppercase;color:var(--brand)}
+.blk-clube__meses h3{margin:.35rem 0 .4rem;font-family:var(--f-display);font-size:1.6rem;line-height:1.15;color:var(--ink)}
+.blk-clube__meses p{margin:0;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+.blk-clube__foto{margin:0;display:grid;gap:var(--sp-2)}
+.blk-clube__foto img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:var(--radius);display:block}
+.blk-clube__foto figcaption{font-size:var(--t-label);color:color-mix(in srgb,var(--ink) 60%,transparent)}
+@media (min-width:900px){
+  .blk-clube__corpo{grid-template-columns:1.25fr 1fr;align-items:start}
+  .blk-clube__foto{position:sticky;top:6rem}
+}
+</style>
